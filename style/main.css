@@ -1,0 +1,74 @@
+main {
+    padding-top: 3em;
+}
+
+.text {
+    font-family: var(--fonte-principal);
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 2.5em 0.5em;
+}
+
+.text__main {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    padding-top: 0.5em;
+    color: var(--azul-escuro);
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.text__description {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 2em 2em;
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.metricas-container {
+    display: flex;
+    flex-direction:initial;
+    justify-content: center;
+    padding: 4em 4em;
+    margin: 2em;
+    gap: 1em
+    ;
+}
+
+.number {
+  color: var(--vermelho);
+  font-weight: 600;
+  font-size: 60px;
+  margin: 12px;
+}
+
+.projects {
+    color: var(--azul-escuro);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.description {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px;
+    text-align: left;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
