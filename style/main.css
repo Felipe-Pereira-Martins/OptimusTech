@@ -31,6 +31,17 @@ main {
     text-align: center;
 }
 
+.text__name {
+    text-align: center;
+    color: var(--azul-escuro);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile__img {
+    text-align: center;
+}
+
 .metricas-container {
     display: flex;
     flex-direction:initial;
@@ -72,3 +83,4 @@ main {
 form {
     text-align: center;
 }
+

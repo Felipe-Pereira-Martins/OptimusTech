@@ -1,5 +1,6 @@
 @import url("style/header.css");
 @import url("style/main.css");
+@import url("style/footer.css");
 :root {
     --cor--de--fundo: #FFFFFF;
     --cinza: #667085;
@@ -7,6 +8,7 @@
     --vermelho: #8E2424;
     --azul-escuro:#101828;
     --branco: #FFFFFF;
+    --cinza-claro:#98A2B3;
 }
 
 body {
