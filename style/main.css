@@ -2,6 +2,41 @@ main {
     padding-top: 3em;
 }
 
+.container__vagas {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 20% 64px 20%;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vagas__descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 32px;
+    border-radius: 16px;
+    border: 1px solid var(--branco-escuro);
+}
+
+.vagas__subtitulo {
+    font-size: 18px;
+    font-weight: 5000;
+}
+
+.vagas__descricao__texto {
+    display: flex;
+    gap: 24px;
+}
+
+.vagas__texto {
+    color: var(--cinza);
+}
+
 .text {
     font-family: var(--fonte-principal);
     color: var(--vermelho);
@@ -102,4 +137,5 @@ form {
     margin-right: 2em;
     padding: 10px 20px;
 }
+
 
